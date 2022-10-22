@@ -45,11 +45,12 @@
 .text .dynamic-txts li{
     color: rgb(0, 0, 0);
     list-style: none;
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 500;
     line-height: 1em;
     text-transform: uppercase;
     z-index: 20;
+    overflow: hidden;
 }
 .text a{
     position: absolute;
@@ -69,6 +70,7 @@
 }
 .dynamic-txts li span{
     position: relative;
+    
 }
 .dynamic-txts li span::after{
     content: "";
@@ -79,15 +81,14 @@
     top: -10px;
     background: #ffffff;
     border-left: 2px solid rgb(0, 0, 0);
+    
     animation: animate 5s steps(15) infinite;
 }
 @keyframes animate{
     40%, 60%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
+        left: calc(100% + 30px);
     }
     100%{
         left: 0%;
-        margin: 0 -35px 0 35px;
     }
 }

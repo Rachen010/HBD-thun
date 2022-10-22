@@ -48,6 +48,7 @@
     line-height: 1em;
     text-transform: uppercase;
     z-index: 20;
+    overflow: hidden;
 }
 .text a{
     position: absolute;
