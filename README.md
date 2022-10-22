@@ -1,3 +1,3 @@
-# HBD-thun
-***Test web for my friend birthday***
+# web test
+# Test web for my friend birthday
 
