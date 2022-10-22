@@ -21,15 +21,27 @@
 }
 .showcase video {
     position: absolute;
-    top: 700px;
+    top: 20cm;
     left: 0;
     width: 100%;
     height: 100%;
     opacity: 1;
     border-radius: 50px;
 }
-.showcase img {
+.showcase .img1 {
     position: absolute;
+    top: 70cm;
+    z-index: 20;
+}
+.showcase .img2 {
+    position: absolute;
+    top: 90cm;
+    width: 100%;
+    z-index: 20;
+}
+.showcase .img3 {
+    position: absolute;
+    top: 45cm;
     z-index: 20;
 }
 .overlay {
