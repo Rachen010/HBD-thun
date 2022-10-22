@@ -28,6 +28,10 @@
     opacity: 1;
     border-radius: 50px;
 }
+.showcase img {
+    position: absolute;
+    z-index: 20;
+}
 .overlay {
     position: absolute;
     top: 0;
